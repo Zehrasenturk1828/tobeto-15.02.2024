@@ -37,3 +37,13 @@ if ters == metin:
     print('Girilen metin palindrom')
 else:
     print('Girilen metin palindrom değil.')
+
+    # 5-Kullanıcıdan alınan bir sayının palindrom olup olmadığını bulan bir program yazınız.
+metin = input('Metni Girin : ')
+ters = metin[::-1]
+
+print('Girilen metnin tersi = %s' % (ters))
+if ters == metin:
+    print('Girilen metin palindrom')
+else:
+    print('Girilen metin palindrom değil.')
